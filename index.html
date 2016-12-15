@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <script src="https://d3js.org/d3.v4.js"></script>
+
+    <!-- Bootstrap core CSS -->
+    <!--<link href="css/bootstrap.css" rel="stylesheet">-->
+
+    <link href="css/stylesheet.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  
+    <script>
+    window.onload = function soundMouseover(){
+      d3.selectAll("video").on('mouseover', function(d){
+        console.log("test on");
+        this.muted = false;
+      })
+
+      d3.selectAll("video").on('mouseout', function(d){
+        console.log("test off");
+        this.muted = true;
+      })
+
+    }
+
+    </script>
+
+
+    <div class="container">
+
+
+          <!--<div class="col-md-3"><video class="cat" src="videos/" autoplay="true" muted="true" loop="true"></div>-->
+          <div class="col-md-3"><video class="cat" src="videos/After raucous charity dinner, Trump and Clinton head to battlegrounds-iLE08Dr_fNY.mp4" autoplay="true" muted="true" loop="true"></div>
+          <div class="col-md-3"><video class="cat" src="videos/Bernie Sanders Responds To Hillary Clinton's Leaked Wall St. Speeches-6rsaNUfe0OQ.mp4" autoplay="true" muted="true" loop="true"></div>
+          <div class="col-md-3"><video class="cat" src="videos/Campaign shake-up - Can Donald Trump lead an effective campaign team-nyHkx3pLaN0.mp4" autoplay="true" muted="true" loop="true"></div>
+          <div class="col-md-3"><video class="cat" src="videos/Donald Trump Lets Jimmy Fallon Mess Up His Hair-u0BYqzdiuJc.mp4" autoplay="true" muted="true" loop="true"></div>
+          <div class="col-md-3"><video class="cat" src="videos/Inside The Vulgar Jay Z, Beyonce, Hillary Rally-m30VBIf6bTM.mp4" autoplay="true" muted="true" loop="true"></div>
+          <div class="col-md-3"><video class="cat" src="videos/Kellyanne Conway Acknowledges 'We Are Behind' _ Meet The Press _ NBC News-l755rYnUh0g.mp4" autoplay="true" muted="true" loop="true"></div>
+          <div class="col-md-3"><video class="cat" src="videos/LIVE Presidential Debate Preview _ 'Keepin' It 1600’ _ The Ringer-Wz6-xbAKupQ.mp4" autoplay="true" muted="true" loop="true"></div>
+          <div class="col-md-3"><video class="cat" src="videos/Sean Hannity Makes It Clear That ‘Nobody’s Going to Defend’ Trump’s Leaked Comments on Women-6K4hnnyr8UY.mp4" autoplay="true" muted="true" loop="true"></div>
+          <div class="col-md-3"><video class="cat" src="videos/The Daily Show - Bill Clinton - Hillary Clinton and the Changing Political Landscape-h-H1LddWxo8.mp4" autoplay="true" muted="true" loop="true"></div>
+          <div class="col-md-3"><video class="cat" src="videos/To Drain the Swamp Hillary Must Burn-au2feiPjgE8.mp4" autoplay="true" muted="true" loop="true"></div>
+          <div class="col-md-3"><video class="cat" src="videos/Tomi lahren's Final Thoughts on Alton Sterling-1ddt-H5twvI.mp4" autoplay="true" muted="true" loop="true"></div>
+          <div class="col-md-3"><video class="cat" src="videos/Top U.S. & World Headlines — October 28, 2016-FvvahsIokXM.mp4" autoplay="true" muted="true" loop="true"></div>
+          <div class="col-md-3"><video class="cat" src="videos/Understanding Donald Trump and Hillary Clinton's Health Care Reform Proposals-p3mYrOnq2Z4.mp4" autoplay="true" muted="true" loop="true"></div>
+          <div class="col-md-3"><video class="cat" src="videos/Which leaks are more damaging - Clinton's or Trump's-4RlTnVaYwXE.mp4" autoplay="true" muted="true" loop="true"></div>
+          <div class="col-md-3"><video class="cat" src="videos/Why The MSM Can't Be Trusted-969DbwG2jtg.mp4" autoplay="true" muted="true" loop="true"></div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
